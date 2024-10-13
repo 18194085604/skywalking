@@ -1,0 +1,22 @@
+server:
+  port: 9091
+
+spring:
+  config:
+    name: skywalking-app
+  application:
+    name: skywalking-app
+  datasource:
+    username: xfg
+    password: 123456
+    url: jdbc:mysql://192.168.56.103:3306/road-map?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:/mybatis/mapper/*.xml
+  config-location:  classpath:/mybatis/config/mybatis-config.xml
+
+logging:
+  level:
+    root: info
+  config: classpath:logback-spring.xml

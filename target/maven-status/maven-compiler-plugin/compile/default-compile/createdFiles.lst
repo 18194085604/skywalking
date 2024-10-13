@@ -1,0 +1,15 @@
+cn\bugstack\xfg\frame\controller\UserController.class
+cn\bugstack\xfg\frame\domain\res\UserRes.class
+cn\bugstack\xfg\frame\common\Constants$ResponseCode.class
+cn\bugstack\xfg\frame\domain\req\UserReq.class
+cn\bugstack\xfg\frame\domain\vo\UserInfo$UserInfoBuilder.class
+cn\bugstack\xfg\frame\service\impl\UserServiceImpl.class
+cn\bugstack\xfg\frame\domain\req\UserReq$UserReqBuilder.class
+cn\bugstack\xfg\frame\common\Result.class
+cn\bugstack\xfg\frame\common\Constants.class
+cn\bugstack\xfg\frame\domain\res\UserRes$UserResBuilder.class
+cn\bugstack\xfg\frame\dao\IUserDao.class
+cn\bugstack\xfg\frame\domain\vo\UserInfo.class
+cn\bugstack\xfg\frame\service\IUserService.class
+cn\bugstack\xfg\frame\domain\po\User.class
+cn\bugstack\xfg\frame\Application.class
